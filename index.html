@@ -2,52 +2,45 @@
 <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" ="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/css/style.css"/>
+    <link rel="stylesheet" href="/styles.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
     <link rel="icon" type="image/x-icon" href="">
     <title>SIJA</title>
 </head>
 <body>
-	<div class="top-header-area bg-gray-900">
-		<div class="container">
+    <div class="bg-gray-900">
+        <div class="container">
             <div class="text-center">
-                    <!-- logo -->
-                    <!-- <div class="site-logo">
-                        <a href="index.html">
-                            <img src="assets/img/logo.png" alt="">
-                        </a>
-                    </div> -->
-                    <!-- logo -->
-
-                    <nav class="text-white text-sm p-6 font-semibold">
-                        <ul class="flex justify-evenly">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="#sejarah">Sejarah</a></li>
-                            <li><a href="#kompetensi">Kompetensi Lulusan</a></li>
-                            <li><a href="#standarisi">Standar Isi</a></li>
-                            <li><a href="#pendidik">Tenaga Pendidik</a></li>
-                            <li><a href="#sarana">Sarana</a></li>
-                            <li><a href="#mitra">Mitra Industri</a></li>
-                            <li><a href="#prestasi">Prestasi</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </nav>
-                    <div class=""></div>
+                <nav class="text-white text-sm p-6 font-bold">
+                    <ul class="flex flex-wrap justify-evenly">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#sejarah">Sejarah</a></li>
+                        <li><a href="#kompetensi">Kompetensi Lulusan</a></li>
+                        <li><a href="#standarisi">Standar Isi</a></li>
+                        <li><a href="#pendidik">Tenaga Pendidik</a></li>
+                        <li><a href="#sarana">Sarana</a></li>
+                        <li><a href="#mitra">Mitra Industri</a></li>
+                        <li><a href="#prestasi">Prestasi</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class=""></div>
             </div>
-		</div>
-	</div>
-	
-	<!-- hero section -->
-    <section id="hero" class="h-screen flex items-center justify-center">
+        </div>
+    </div>
+
+    <!-- hero section -->
+    <section id="hero" class="h-screen flex items-center justify-center bg-cover bg-center bg-fixed" style="background-image: url('public/img/hero.jpg');">
         <div class="container">
             <div class="flex justify-center items-center">
                 <div class="text-center">
                     <div>
-                        <p class="text-lg font-semibold text-orange-400 uppercase mb-6">Profil Konsentrasi Keahlian</p>
-                        <p class="text-6xl font-bold mb-6">Sistem Informasi Jaringan dan Aplikasi</p>
-                        <button class="bg-orange-400 p-4 rounded-xl">
-                            <a href="#">SIJA</a>
+                        <p class="text-lg font-bold text-orange-400 uppercase mb-6 transition">Profil Konsentrasi Keahlian</p>
+                        <p class="text-6xl font-bold mb-6 transition text-white">Sistem Informasi Jaringan dan Aplikasi</p>
+                        <button class="bg-orange-400 p-4 rounded-xl hover:bg-orange-500 transition">
+                            <a href="#" class="text-white">SIJA</a>
                         </button>
                     </div>
                 </div>
@@ -55,218 +48,263 @@
         </div>
     </section>
 
-<!-- sejarah section -->
-<section id="sejarah" class="pt-20 pb-20">
+<!-- tentang section -->
+<section id="tentang" class="pt-20 pb-20 bg-gray-100">
     <div class="container mx-auto">
         <div class="text-center mb-8">
-            <h3 class="text-3xl font-semibold"><span class="text-orange-400">Sejarah</span></h3>
+            <h3 class="text-4xl font-bold"><span class="text-orange-400">Tentang</span> Kami</h3>
         </div>
         <div class="flex flex-wrap justify-center">
-            <div class="w-full md:w-1/2 lg:w-1/3 p-4">
-                <div class="flex items-center space-x-4">
-                    <div class="text-2xl text-orange-400">
-                        <i class="fas fa-sync"></i>
+                <div class=" p-8 flex flex-col md:flex-row items-start">
+                    <div class="w-full md:w-1/2 mb-4 md:mb-0 md:mr-6">
+                        <iframe class="w-full aspect-video rounded-lg" src="https://www.youtube.com/embed/kd8XlNmUO1o?controls=0&showinfo=0" title="Tentang SIJA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
-                    <div class="">
-                        <h3 class="text-xl font-semibold">2001-2005</h3>
-                        <p>Teknik Informatika</p>
+                    <div class="w-full md:w-1/2">
+                        <p class="text-gray-700 font-semibold text-xl leading-relaxed">Sistem Informasi Jaringan dan Aplikasi (SIJA) merupakan salah satu Kompetensi Keahlian pada Bidang keahlian Teknologi informasi dan Komunikasi. Jurusan ini sangat mendukung perkembangan teknologi dan perkembangan industri 4.0 yang akan menuju 5.0. Pembelajaran Jurusan Sija di SMK berlangsung selama 4 Tahun.</p>
                     </div>
                 </div>
-            </div>
-            <div class="w-full md:w-1/2 lg:w-1/3 p-4">
-                <div class="flex items-center space-x-4">
-                    <div class="text-2xl text-orange-400">
-                        <i class="fas fa-sync"></i>
-                    </div>
-                    <div class="">
-                        <h3 class="text-xl font-semibold">2005-2016</h3>
-                        <p>Teknik Komputer dan Jaringan</p>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full md:w-1/2 lg:w-1/3 p-4">
-                <div class="flex items-center space-x-4">
-                    <div class="text-2xl text-orange-400">
-                        <i class="fas fa-sync"></i>
-                    </div>
-                    <div class="">
-                        <h3 class="text-xl font-semibold">2016-Sekarang</h3>
-                        <p>Sistem Informasi, Jaringan, dan Aplikasi</p>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </section>
-<!-- end features list section -->
 
-<div id="kompetensi" class="pt-20 pb-10">
-    <div class="container mx-auto">
-        <div class="text-center mb-8">
-            <h3 class="text-3xl font-semibold"><span class="text-orange-400">Standar</span> Kompetensi Kelulusan</h3>
-        </div>
-        <div class="overflow-x-auto">
-            <table class="min-w-full bg-white">
-                <thead>
-                    <tr>
-                        <th class="px-4 py-2 border">Kompetensi</th>
-                        <th class="px-4 py-2 border">Karir</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="px-4 py-2 border">Teknisi Komputer</td>
-                        <td class="px-4 py-2 border">Jasa perakitan dan perbaikan komputer</td>
-                    </tr>
-                    <tr>
-                        <td class="px-4 py-2 border">Teknisi Jaringan Komputer</td>
-                        <td class="px-4 py-2 border">Teknisi Jaringan Komputer Yunior, Administrator Jaringan Yunior, Devops Engineer Yunior</td>
-                    </tr>
-                    <tr>
-                        <td class="px-4 py-2 border">Web Programmer</td>
-                        <td class="px-4 py-2 border">Web Programmer Yunior</td>
-                    </tr>
-                    <tr>
-                        <td class="px-4 py-2 border">Smartphone Programmer</td>
-                        <td class="px-4 py-2 border">Smartphone Programmer Yunior</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-</div>
 
-<!-- product section -->
-<div id="standarisi" class="mt-36 mb-36 pt-4">
-    <div class="container mx-auto">
-        <div class="text-center mb-8">
-            <h3 class="text-3xl font-semibold"><span class="text-orange-400">Standar</span> Isi</h3>
+    <!-- sejarah section -->
+    <section id="sejarah" class="pt-20 pb-20 bg-gray-100">
+        <div class="container mx-auto">
+            <div class="text-center mb-8">
+                <h3 class="text-3xl font-bold"><span class="text-orange-400">Sejarah</span></h3>
+            </div>
+            <div class="flex flex-wrap justify-center">
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="flex items-center space-x-4 transition">
+                        <div class="text-2xl text-orange-400">
+                            <i class="fas fa-sync"></i>
+                        </div>
+                        <div class="">
+                            <h3 class="text-xl font-bold">2001-2005</h3>
+                            <p>Teknik Informatika</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="flex items-center space-x-4 transition">
+                        <div class="text-2xl text-orange-400">
+                            <i class="fas fa-sync"></i>
+                        </div>
+                        <div class="">
+                            <h3 class="text-xl font-bold">2005-2016</h3>
+                            <p>Teknik Komputer dan Jaringan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="flex items-center space-x-4 transition">
+                        <div class="text-2xl text-orange-400">
+                            <i class="fas fa-sync"></i>
+                        </div>
+                        <div class="">
+                            <h3 class="text-xl font-bold">2016-Sekarang</h3>
+                            <p>Sistem Informasi, Jaringan, dan Aplikasi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="flex flex-wrap justify-center">
-            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
-                <div class="text-center">
-                    <div class="mb-4">
-                        <a href="#"><img src="assets/img/image.png" alt="" class="mx-auto"></a>
+    </section>
+
+        <!-- visimisi section -->
+        <section id="visimisimisi" class="pt-20 pb-20 bg-gray-100">
+            <div class="container mx-auto">
+                <div class="text-center mb-8">
+                    <h3 class="text-3xl font-bold"><span class="text-orange-400">Visi & Misi</span></h3>
+                </div>
+                <div class="flex flex-wrap justify-center">
+                    <div class="w-full md:w-1/2 lg:w-1/3 p-4 flex">
+                        <div class="bg-white shadow-md rounded-lg p-6 flex flex-col">
+                            <h1 class="text-2xl font-semibold mb-4">Visi</h1>
+                            <p class="text-gray-700 flex-grow">Menghasilkan administrator jaringan komputer junior yang kompeten junior network administrator yang berakhlak mulia.</p>
+                        </div>
                     </div>
-                    <h3 class="text-xl font-semibold">Jaringan Komputer</h3>
-                    <h3 class="text-xl font-semibold">Dasar</h3>
+                    <div class="w-full md:w-1/2 lg:w-1/3 p-4 flex">
+                        <div class="bg-white shadow-md rounded-lg p-6 flex flex-col">
+                            <h1 class="text-2xl font-semibold mb-4">Misi</h1>
+                            <ol class="list-decimal list-inside text-gray-700 flex-grow">
+                                <li>Melaksanakan pendidikan dan pelatihan dalam bidang sistem informasi jaringan dan aplikasi.</li>
+                                <li>Melatih keterampilan wirausaha di bidang teknologi komputer dan komunikasi.</li>
+                            </ol>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
-                <div class="text-center">
-                    <div class="mb-4">
-                        <a href="#"><img src="assets/img/image.png" alt="" class="mx-auto"></a>
-                    </div>
-                    <h3 class="text-xl font-semibold">Sistem Komputer</h3>
-                    <h3 class="text-xl font-semibold">Komputer</h3>
-                </div>
+        </section>        
+
+    <!-- kompetensi section -->
+    <div id="kompetensi" class="pt-20 pb-10">
+        <div class="container mx-auto">
+            <div class="text-center mb-8">
+                <h3 class="text-3xl font-bold"><span class="text-orange-400">Standar</span> Kompetensi Kelulusan</h3>
             </div>
-            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
-                <div class="text-center">
-                    <div class="mb-4">
-                        <a href="#"><img src="assets/img/image.png" alt="" class="mx-auto"></a>
-                    </div>
-                    <h3 class="text-xl font-semibold">Pemrograman</h3>
-                    <h3 class="text-xl font-semibold">Dasar</h3>
-                </div>
-            </div>
-            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
-                <div class="text-center">
-                    <div class="mb-4">
-                        <a href="#"><img src="assets/img/image.png" alt="" class="mx-auto"></a>
-                    </div>
-                    <h3 class="text-xl font-semibold">Infrastructure</h3>
-                    <h3 class="text-xl font-semibold">as a Service (IaaS)</h3>
-                </div>
-            </div>
-            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
-                <div class="text-center">
-                    <div class="mb-4">
-                        <a href="#"><img src="assets/img/image.png" alt="" class="mx-auto"></a>
-                    </div>
-                    <h3 class="text-xl font-semibold">Platform</h3>
-                    <h3 class="text-xl font-semibold">as a Service (PaaS)</h3>
-                </div>
-            </div>
-            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
-                <div class="text-center">
-                    <div class="mb-4">
-                        <a href="#"><img src="assets/img/image.png" alt="" class="mx-auto"></a>
-                    </div>
-                    <h3 class="text-xl font-semibold">Software</h3>
-                    <h3 class="text-xl font-semibold">as a Service (SaaS)</h3>
-                </div>
-            </div>
-            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
-                <div class="text-center">
-                    <div class="mb-4">
-                        <a href="#"><img src="assets/img/image.png" alt="" class="mx-auto"></a>
-                    </div>
-                    <h3 class="text-xl font-semibold">Internet</h3>
-                    <h3 class="text-xl font-semibold">of Things (IoT)</h3>
-                </div>
-            </div>
-            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
-                <div class="text-center">
-                    <div class="mb-4">
-                        <a href="#"><img src="assets/img/image.png" alt="" class="mx-auto"></a>
-                    </div>
-                    <h3 class="text-xl font-semibold">Sistem</h3>
-                    <h3 class="text-xl font-semibold">Keamanan Jaringan</h3>
-                </div>
+            <div class="overflow-x-auto">
+                <table class="min-w-full bg-white">
+                    <thead>
+                        <tr>
+                            <th class="px-4 py-2 border">Kompetensi</th>
+                            <th class="px-4 py-2 border">Karir</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="odd:bg-gray-100">
+                            <td class="px-4 py-2 border">Teknisi Komputer</td>
+                            <td class="px-4 py-2 border">Jasa perakitan dan perbaikan komputer</td>
+                        </tr>
+                        <tr class="odd:bg-gray-100">
+                            <td class="px-4 py-2 border">Teknisi Jaringan Komputer</td>
+                            <td class="px-4 py-2 border">Teknisi Jaringan Komputer Yunior, Administrator Jaringan Yunior, Devops Engineer Yunior</td>
+                        </tr>
+                        <tr class="odd:bg-gray-100">
+                            <td class="px-4 py-2 border">Web Programmer</td>
+                            <td class="px-4 py-2 border">Web Programmer Yunior</td>
+                        </tr>
+                        <tr class="odd:bg-gray-100">
+                            <td class="px-4 py-2 border">Smartphone Programmer</td>
+                            <td class="px-4 py-2 border">Smartphone Programmer Yunior</td>
+                        </tr>
+                    </tbody>                
+                </table>
             </div>
         </div>
     </div>
-</div>
-<!-- end product section -->
 
-<!-- cart banner section -->
-<section id="pendidik" class="py-24 bg-gray-100">
-    <div class="container mx-auto">
-        <div class="text-center mb-8">
-            <h3 class="text-3xl font-semibold"><span class="text-orange-400">Standar</span> Tenaga Pendidik</h3>
-            <p>Para pengajar kami adalah lulusan S1 yang kompeten di bidang IT</p>
-        </div>
-        <div class="flex flex-wrap justify-center">
-            <div class="w-full md:w-1/2 lg:w-1/3 p-4">
-                <div class="p-6 bg-white shadow-md rounded">
-                    <h3 class="text-xl font-semibold mb-2">Teknik Komputer dan Jaringan</h3>
-                    <p>Para pengajar kami adalah lulusan S1 yang kompeten di bidang IT.</p>
-                </div>
+    <!-- standar isi section -->
+    <div id="standarisi" class="mt-36 mb-36 pt-4">
+        <div class="container mx-auto">
+            <div class="text-center mb-8">
+                <h3 class="text-3xl font-bold"><span class="text-orange-400">Standar</span> Isi</h3>
             </div>
-            <div class="w-full md:w-1/2 lg:w-1/3 p-4">
-                <div class="p-6 bg-white shadow-md rounded">
-                    <h3 class="text-xl font-semibold mb-2">Infrastruktur Jaringan</h3>
-                    <p>Para pengajar kami adalah lulusan S1 yang kompeten di bidang IT.</p>
+            <div class="flex flex-wrap justify-center">
+                <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
+                    <div class="text-center transition hover:scale-105">
+                        <div class="mb-4">
+                            <a href="#"><img src="assets/img/image.png" alt="" class="mx-auto"></a>
+                        </div>
+                        <h3 class="text-xl font-bold">Jaringan Komputer</h3>
+                        <h3 class="text-xl font-bold">Dasar</h3>
+                    </div>
                 </div>
-            </div>
-            <div class="w-full md:w-1/2 lg:w-1/3 p-4">
-                <div class="p-6 bg-white shadow-md rounded">
-                    <h3 class="text-xl font-semibold mb-2">Sistem Operasi</h3>
-                    <p>Para pengajar kami adalah lulusan S1 yang kompeten di bidang IT.</p>
+                <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
+                    <div class="text-center transition hover:scale-105">
+                        <div class="mb-4">
+                            <a href="#"><img src="assets/img/image.png" alt="" class="mx-auto"></a>
+                        </div>
+                        <h3 class="text-xl font-bold">Sistem Komputer</h3>
+                        <h3 class="text-xl font-bold">Komputer</h3>
+                    </div>
                 </div>
-            </div>
-            <div class="w-full md:w-1/2 lg:w-1/3 p-4">
-                <div class="p-6 bg-white shadow-md rounded">
-                    <h3 class="text-xl font-semibold mb-2">Pemrograman Web</h3>
-                    <p>Para pengajar kami adalah lulusan S1 yang kompeten di bidang IT.</p>
+                <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
+                    <div class="text-center transition hover:scale-105">
+                        <div class="mb-4">
+                            <a href="#"><img src="assets/img/image.png" alt="" class="mx-auto"></a>
+                        </div>
+                        <h3 class="text-xl font-bold">Pemrograman</h3>
+                        <h3 class="text-xl font-bold">Dasar</h3>
+                    </div>
                 </div>
-            </div>
-            <div class="w-full md:w-1/2 lg:w-1/3 p-4">
-                <div class="p-6 bg-white shadow-md rounded">
-                    <h3 class="text-xl font-semibold mb-2">Pemrograman Berbasis Mobile</h3>
-                    <p>Para pengajar kami adalah lulusan S1 yang kompeten di bidang IT.</p>
+                <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
+                    <div class="text-center transition hover:scale-105">
+                        <div class="mb-4">
+                            <a href="#"><img src="assets/img/image.png" alt="" class="mx-auto"></a>
+                        </div>
+                        <h3 class="text-xl font-bold">Infrastructure</h3>
+                        <h3 class="text-xl font-bold">as a Service (IaaS)</h3>
+                    </div>
                 </div>
-            </div>
-            <div class="w-full md:w-1/2 lg:w-1/3 p-4">
-                <div class="p-6 bg-white shadow-md rounded">
-                    <h3 class="text-xl font-semibold mb-2">Basis Data</h3>
-                    <p>Para pengajar kami adalah lulusan S1 yang kompeten di bidang IT.</p>
+                <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
+                    <div class="text-center transition hover:scale-105">
+                        <div class="mb-4">
+                            <a href="#"><img src="assets/img/image.png" alt="" class="mx-auto"></a>
+                        </div>
+                        <h3 class="text-xl font-bold">Platform</h3>
+                        <h3 class="text-xl font-bold">as a Service (PaaS)</h3>
+                    </div>
+                </div>
+                <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
+                    <div class="text-center transition hover:scale-105">
+                        <div class="mb-4">
+                            <a href="#"><img src="assets/img/image.png" alt="" class="mx-auto"></a>
+                        </div>
+                        <h3 class="text-xl font-bold">Software</h3>
+                        <h3 class="text-xl font-bold">as a Service (SaaS)</h3>
+                    </div>
+                </div>
+                <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
+                    <div class="text-center transition hover:scale-105">
+                        <div class="mb-4">
+                            <a href="#"><img src="assets/img/image.png" alt="" class="mx-auto"></a>
+                        </div>
+                        <h3 class="text-xl font-bold">Internet</h3>
+                        <h3 class="text-xl font-bold">of Things (IoT)</h3>
+                    </div>
+                </div>
+                <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
+                    <div class="text-center transition hover:scale-105">
+                        <div class="mb-4">
+                            <a href="#"><img src="assets/img/image.png" alt="" class="mx-auto"></a>
+                        </div>
+                        <h3 class="text-xl font-bold">Sistem</h3>
+                        <h3 class="text-xl font-bold">Keamanan Jaringan</h3>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+
+    <!-- pendidik section -->
+    <section id="pendidik" class="py-24 bg-gray-100">
+        <div class="container mx-auto">
+            <div class="text-center mb-8">
+                <h3 class="text-3xl font-bold"><span class="text-orange-400">Standar</span> Tenaga Pendidik</h3>
+                <p>Para pengajar kami adalah lulusan S1 yang kompeten di bidang IT</p>
+            </div>
+            <div class="flex flex-wrap justify-center">
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="p-6 bg-white shadow-md rounded transition hover:shadow-lg">
+                        <h3 class="text-xl font-bold mb-2">Teknik Komputer dan Jaringan</h3>
+                        <p>Para pengajar kami adalah lulusan S1 yang kompeten di bidang IT.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="p-6 bg-white shadow-md rounded transition hover:shadow-lg">
+                        <h3 class="text-xl font-bold mb-2">Infrastruktur Jaringan</h3>
+                        <p>Para pengajar kami adalah lulusan S1 yang kompeten di bidang IT.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="p-6 bg-white shadow-md rounded transition hover:shadow-lg">
+                        <h3 class="text-xl font-bold mb-2">Sistem Operasi</h3>
+                        <p>Para pengajar kami adalah lulusan S1 yang kompeten di bidang IT.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="p-6 bg-white shadow-md rounded transition hover:shadow-lg">
+                        <h3 class="text-xl font-bold mb-2">Pemrograman Web</h3>
+                        <p>Para pengajar kami adalah lulusan S1 yang kompeten di bidang IT.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="p-6 bg-white shadow-md rounded transition hover:shadow-lg">
+                        <h3 class="text-xl font-bold mb-2">Pemrograman Berbasis Mobile</h3>
+                        <p>Para pengajar kami adalah lulusan S1 yang kompeten di bidang IT.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="p-6 bg-white shadow-md rounded transition hover:shadow-lg">
+                        <h3 class="text-xl font-bold mb-2">Basis Data</h3>
+                        <p>Para pengajar kami adalah lulusan S1 yang kompeten di bidang IT.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="public\script\script.js"></script>
 </body>
