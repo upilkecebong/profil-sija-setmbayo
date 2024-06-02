@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/style.css"/>
+    <link rel="stylesheet" href="/styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <title>SIJA</title>
+</head>
+<body>
+    <div class="bg-gray-900 fixed top-0 left-0 w-full h-full z-50 overflow-hidden hidden" id="navbar-overlay">
+        <div class="container mx-auto px-4 h-full flex items-center justify-center">
+            <ul class="text-white text-xl font-bold text-center space-y-8">
+                <li><a href="#" class="hover:text-orange-400">Home</a></li>
+                <li><a href="#tentang" class="hover:text-orange-400">Tentang Kami</a></li>
+                <li><a href="#kompetensi" class="hover:text-orange-400">Standar Kami</a></li>
+                <li><a href="#sarana" class="hover:text-orange-400">Sarana & Prasarana</a></li>
+                <li><a href="#mitra" class="hover:text-orange-400">Mitra Industri</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="bg-gray-900 fixed top-0 left-0 w-full z-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-white text-xl font-bold">
+                    <img src="public/img/logo/logo.png" alt="logo sija" class="w-10 h-10">
+                </div>
+                <button id="menu-toggle" class="text-white block md:hidden focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+                <nav id="menu" class="hidden md:flex md:items-center md:justify-evenly text-white text-sm font-bold space-x-4 w-full md:w-auto">
+                    <ul class="flex flex-col md:flex-row md:space-x-4">
+                        <li class="p-2"><a href="#" class="hover:text-orange-400">Home</a></li>
+                        <li class="p-2"><a href="#tentang" class="hover:text-orange-400">Tentang Kami</a></li>
+                        <li class="p-2"><a href="#kompetensi" class="hover:text-orange-400">Standar Kami</a></li>
+                        <li class="p-2"><a href="#sarana" class="hover:text-orange-400">Sarana & Prasarana</a></li>
+                        <li class="p-2"><a href="#mitra" class="hover:text-orange-400">Mitra Industri</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- hero section -->
+    <section id="hero" class="h-screen flex items-center justify-center bg-cover bg-center bg-fixed" style="background-image: url('public/img/hero.jpg');">
+        <div class="container">
+            <div class="flex justify-center items-center">
+                <div class="text-center">
+                    <div>
+                        <p class="text-lg font-bold text-orange-400 uppercase mb-6 transition">Profil Konsentrasi Keahlian</p>
+                        <p class="text-6xl font-bold mb-6 transition text-white">Sistem Informasi Jaringan dan Aplikasi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- tentang section -->
+<section id="tentang" class="pt-20 pb-20 bg-gray-100">
+    <div class="container mx-auto">
+        <div class="text-center mb-8">
+            <h3 class="text-4xl font-bold"><span class="text-orange-400">Tentang</span> Kami</h3>
+        </div>
+        <div class="flex flex-wrap justify-center">
+                <div class=" p-8 flex flex-col md:flex-row items-start">
+                    <div class="w-full md:w-1/2 mb-4 md:mb-0 md:mr-6">
+                        <iframe class="w-full aspect-video rounded-lg" src="https://www.youtube.com/embed/kd8XlNmUO1o?controls=0&showinfo=0" title="Tentang SIJA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="w-full md:w-1/2">
+                        <p class="text-gray-700 font-semibold text-xl leading-relaxed">Sistem Informasi Jaringan dan Aplikasi (SIJA) merupakan salah satu Kompetensi Keahlian pada Bidang keahlian Teknologi informasi dan Komunikasi. Jurusan ini sangat mendukung perkembangan teknologi dan perkembangan industri 4.0 yang akan menuju 5.0. Pembelajaran Jurusan Sija di SMK berlangsung selama 4 Tahun.</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- sejarah section -->
+    <section id="sejarah" class="pt-20 pb-20 bg-gray-100">
+        <div class="container mx-auto">
+            <div class="text-center mb-8">
+                <h3 class="text-3xl font-bold"><span class="text-orange-400">Sejarah</span></h3>
+            </div>
+            <div class="flex flex-wrap justify-center">
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="flex items-center space-x-4 transition">
+                        <div class="text-2xl text-orange-400">
+                            <i class="fas fa-sync"></i>
+                        </div>
+                        <div class="">
+                            <h3 class="text-xl font-bold">2001-2005</h3>
+                            <p>Teknik Informatika</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="flex items-center space-x-4 transition">
+                        <div class="text-2xl text-orange-400">
+                            <i class="fas fa-sync"></i>
+                        </div>
+                        <div class="">
+                            <h3 class="text-xl font-bold">2005-2016</h3>
+                            <p>Teknik Komputer dan Jaringan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                    <div class="flex items-center space-x-4 transition">
+                        <div class="text-2xl text-orange-400">
+                            <i class="fas fa-sync"></i>
+                        </div>
+                        <div class="">
+                            <h3 class="text-xl font-bold">2016-Sekarang</h3>
+                            <p>Sistem Informasi, Jaringan, dan Aplikasi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- visimisi section -->
+        <section id="visimisimisi" class="pt-20 pb-20 bg-gray-100">
+            <div class="container mx-auto">
+                <div class="text-center mb-8">
+                    <h3 class="text-3xl font-bold"><span class="text-orange-400">Visi & Misi</span></h3>
+                </div>
+                <div class="flex flex-wrap justify-center">
+                    <div class="w-full md:w-1/2 lg:w-1/3 p-4 flex">
+                        <div class="bg-white shadow-md rounded-lg p-6 flex flex-col">
+                            <h1 class="text-2xl font-semibold mb-4">Visi</h1>
+                            <p class="text-gray-700 flex-grow">Menghasilkan administrator jaringan komputer junior yang kompeten junior network administrator yang berakhlak mulia.</p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 lg:w-1/3 p-4 flex">
+                        <div class="bg-white shadow-md rounded-lg p-6 flex flex-col">
+                            <h1 class="text-2xl font-semibold mb-4">Misi</h1>
+                            <ol class="list-decimal list-inside text-gray-700 flex-grow">
+                                <li>Melaksanakan pendidikan dan pelatihan dalam bidang sistem informasi jaringan dan aplikasi.</li>
+                                <li>Melatih keterampilan wirausaha di bidang teknologi komputer dan komunikasi.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
+
+    <!-- kompetensi section -->
+    <div id="kompetensi" class="pt-20 pb-10">
+        <div class="container mx-auto">
+            <div class="text-center mb-8">
+                <h3 class="text-4xl font-bold"><span class="text-orange-400">Standar</span> Kompetensi Kelulusan</h3>
+            </div>
+            <div class="overflow-x-auto">
+                <table class="min-w-full bg-white">
+                    <thead>
+                        <tr>
+                            <th class="px-4 py-2 border">Kompetensi</th>
+                            <th class="px-4 py-2 border">Karir</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="odd:bg-gray-100">
+                            <td class="px-4 py-2 border">Teknisi Komputer</td>
+                            <td class="px-4 py-2 border">Jasa perakitan dan perbaikan komputer</td>
+                        </tr>
+                        <tr class="odd:bg-gray-100">
+                            <td class="px-4 py-2 border">Teknisi Jaringan Komputer</td>
+                            <td class="px-4 py-2 border">Teknisi Jaringan Komputer Junior, Administrator Jaringan Junior, Devops Engineer Junior</td>
+                        </tr>
+                        <tr class="odd:bg-gray-100">
+                            <td class="px-4 py-2 border">Web Programmer</td>
+                            <td class="px-4 py-2 border">Web Programmer Junior</td>
+                        </tr>
+                        <tr class="odd:bg-gray-100">
+                            <td class="px-4 py-2 border">Smartphone Programmer</td>
+                            <td class="px-4 py-2 border">Smartphone Programmer Junior</td>
+                        </tr>
+                    </tbody>                
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- standar isi section -->
+    <div id="standarisi" class="pt-20 pb-20">
+        <div class="container mx-auto">
+            <div class="text-center mb-8">
+                <h3 class="text-3xl font-bold"><span class="text-orange-400">Standar Isi</span></h3>
+            </div>
+            <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <li class="border rounded-xl transition transform hover:scale-105 bg-gray-100 overflow-hidden">
+                    <div class="rounded overflow-hidden aspect-video">
+                        <img src="public/img/hero.jpg" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <div class="text-left p-2">
+                        <h3 class="text-xl font-semibold">Jaringan Komputer Dasar</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut iure minus corrupti, animi accusantium provident ut commodi officiis praesentium sequi odio reprehenderit quibusdam eius totam quisquam magnam. Eligendi, at. Dolor.</p>
+                    </div>
+                </li>
+                <li class="border rounded-xl transition transform hover:scale-105 bg-gray-100 overflow-hidden">
+                    <div class="rounded overflow-hidden aspect-video">
+                        <img src="public/img/hero.jpg" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <div class="text-left p-2">
+                        <h3 class="text-xl font-semibold">Sistem Komputer</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum perspiciatis consequatur sint aliquam autem ad eum quos ab molestias? Assumenda rerum sint porro fugit modi quo commodi beatae vel dicta.</p>
+                    </div>
+                </li>
+                <li class="border rounded-xl transition transform hover:scale-105 bg-gray-100 overflow-hidden">
+                    <div class="rounded overflow-hidden aspect-video">
+                        <img src="public/img/hero.jpg" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <div class="text-left p-2">
+                        <h3 class="text-xl font-semibold">Pemrograman Dasar</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi illo voluptates, voluptate aliquid facilis, quas excepturi placeat tempore nam assumenda eveniet nulla nesciunt illum quis mollitia. Vel atque assumenda nesciunt!</p>
+                    </div>
+                </li>
+                <li class="border rounded-xl transition transform hover:scale-105 bg-gray-100 overflow-hidden">
+                    <div class="rounded overflow-hidden aspect-video">
+                        <img src="public/img/hero.jpg" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <div class="text-left p-2">
+                        <h3 class="text-xl font-semibold">Infrastructure as a Service (IaaS)</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aliquid quia molestiae laborum mollitia recusandae laudantium dolorum unde excepturi reprehenderit repudiandae, quos alias? Necessitatibus voluptatem quasi iure accusantium sequi quaerat.</p>
+                    </div>
+                </li>
+                <li class="border rounded-xl transition transform hover:scale-105 bg-gray-100 overflow-hidden">
+                    <div class="rounded overflow-hidden aspect-video">
+                        <img src="public/img/hero.jpg" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <div class="text-left p-2">
+                        <h3 class="text-xl font-semibold">Platform as a Service (PaaS)</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit soluta minus animi. Consequuntur ipsam illum delectus blanditiis, eos maxime eaque mollitia iusto quasi. Accusantium sit obcaecati sed nobis. Quia, dolor!</p>
+                    </div>
+                </li>
+                <li class="border rounded-xl transition transform hover:scale-105 bg-gray-100 overflow-hidden">
+                    <div class="rounded overflow-hidden aspect-video">
+                        <img src="public/img/hero.jpg" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <div class="text-left p-2">
+                        <h3 class="text-xl font-semibold">Software as a Service (SaaS)</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus id soluta porro quam expedita labore dolore inventore alias ex repellat temporibus debitis fugit placeat, magni consequatur culpa saepe, in nobis?</p>
+                    </div>
+                </li>
+                <li class="border rounded-xl transition transform hover:scale-105 bg-gray-100 overflow-hidden">
+                    <div class="rounded overflow-hidden aspect-video">
+                        <img src="public/img/hero.jpg" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <div class="text-left p-2">
+                        <h3 class="text-xl font-semibold">Internet of Things (IoT)</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptas enim ex officiis iusto vitae, sunt doloremque doloribus tempore ad. Magnam quam quasi enim delectus, sequi nulla aliquid maxime ea.</p>
+                    </div>
+                </li>
+                <li class="border rounded-xl transition transform hover:scale-105 bg-gray-100 overflow-hidden">
+                    <div class="rounded overflow-hidden aspect-video">
+                        <img src="public/img/hero.jpg" alt="" class="w-full h-full object-cover">
+                    </div>
+                    <div class="text-left p-2">
+                        <h3 class="text-xl font-semibold">Sistem Keamanan Jaringan</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ducimus, nemo tempora autem, nulla ratione corrupti eius enim aperiam unde, tempore deserunt recusandae aliquid adipisci sapiente vel voluptatibus nihil. Doloribus?</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+<!-- pendidik section -->
+<section id="pendidik" class="pt-20 pb-20">
+    <div class="container mx-auto">
+        <div class="text-center mb-8">
+            <h3 class="text-3xl font-bold"><span class="text-orange-400">Standar Tenaga Pendidik</span></h3>
+            <p>Para pengajar kami adalah lulusan S1 yang kompeten di bidang IT</p>
+        </div>
+        <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <li class="p-4">
+                <div class="flex items-center p-6 bg-white shadow-md rounded transition hover:shadow-lg">
+                    <img src="public/icon/1.svg" alt="informatika" class="w-8 h-8 mr-4">
+                    <h3 class="font-semibold text-lg capitalize">informatika</h3>
+                </div>
+            </li>
+            <li class="p-4">
+                <div class="flex items-center p-6 bg-white shadow-md rounded transition hover:shadow-lg">
+                    <img src="public/icon/2.svg" alt="jaringan komputer" class="w-8 h-8 mr-4">
+                    <h3 class="font-semibold text-lg capitalize">jaringan komputer</h3>
+                </div>
+            </li>
+            <li class="p-4">
+                <div class="flex items-center p-6 bg-white shadow-md rounded transition hover:shadow-lg">
+                    <img src="public/icon/3.svg" alt="web programmer" class="w-8 h-8 mr-4">
+                    <h3 class="font-semibold text-lg capitalize">web programmer</h3>
+                </div>
+            </li>
+            <li class="p-4">
+                <div class="flex items-center p-6 bg-white shadow-md rounded transition hover:shadow-lg">
+                    <img src="public/icon/4.svg" alt="mobile programmer" class="w-8 h-8 mr-4">
+                    <h3 class="font-semibold text-lg capitalize">mobile programmer</h3>
+                </div>
+            </li>
+            <li class="p-4">
+                <div class="flex items-center p-6 bg-white shadow-md rounded transition hover:shadow-lg">
+                    <img src="public/icon/5.svg" alt="keamanan jaringan" class="w-8 h-8 mr-4">
+                    <h3 class="font-semibold text-lg capitalize">keamanan jaringan</h3>
+                </div>
+            </li>
+            <li class="p-4">
+                <div class="flex items-center p-6 bg-white shadow-md rounded transition hover:shadow-lg">
+                    <img src="public/icon/6.svg" alt="cloud computing" class="w-8 h-8 mr-4">
+                    <h3 class="font-semibold text-lg capitalize">cloud computing</h3>
+                </div>
+            </li>
+            <li class="p-4">
+                <div class="flex items-center p-6 bg-white shadow-md rounded transition hover:shadow-lg">
+                    <img src="public/icon/7.svg" alt="devops" class="w-8 h-8 mr-4">
+                    <h3 class="font-semibold text-lg capitalize">devops</h3>
+                </div>
+            </li>
+            <li class="p-4">
+                <div class="flex items-center p-6 bg-white shadow-md rounded transition hover:shadow-lg">
+                    <img src="public/icon/8.svg" alt="microcontroller" class="w-8 h-8 mr-4">
+                    <h3 class="font-semibold text-lg capitalize">microcontroller</h3>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- Prasarana Section -->
+<section id="sarana" class="relative pt-20 pb-20">
+    <div class="container mx-auto relative z-10">
+        <!-- Section Title -->
+        <div class="text-center mb-12">
+            <div class="text-3xl font-bold">
+                <h3><span class="text-orange-500">Sarana & Prasarana</span></h3>
+            </div>
+        </div>
+
+<!-- Sarana -->
+<div class="text-center mb-12">
+    <h2 class="text-xl font-semibold mb-2">Sarana Yang Tersedia di SIJA SMK 2 Depok</h2>
+</div>
+<ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-36">
+    <li class="bg-gradient-to-r from-yellow-400 to-orange-500 text-white flex flex-col items-center justify-center text-4xl font-bold rounded-lg shadow-md py-8">
+        <h3 class="mb-2">250Mbps</h3>
+        <span>Internet</span>
+    </li>
+    <li class="bg-gradient-to-r from-yellow-400 to-orange-500 text-white flex flex-col items-center justify-center text-4xl font-bold rounded-lg shadow-md py-8">
+        <h3 class="mb-2">20+ Unit</h3>
+        <span>Server</span>
+    </li>
+    <li class="bg-gradient-to-r from-yellow-400 to-orange-500 text-white flex flex-col items-center justify-center text-4xl font-bold rounded-lg shadow-md py-8">
+        <h3 class="mb-2">170+ Unit</h3>
+        <span>PC</span>
+    </li>
+</ul>
+
+        <!-- Prasarana -->
+        <div class="flex justify-center align-center font-semibold text-xl mb-12">
+            Prasarana Yang Tersedia di SIJA SMK 2 Depok
+        </div>
+        <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+            <li class="border rounded-xl transition transform hover:scale-105 bg-gray-100 overflow-hidden">
+                <div class="rounded overflow-hidden aspect-video">
+                    <img src="public/img/hero.jpg" alt="" class="w-full h-full object-cover">
+                </div>
+                <div class="text-center p-2">
+                    <h3 class="text-xl font-semibold">Lab. Pemrograman</h3>
+                </div>
+            </li>
+            <li class="border rounded-xl transition transform hover:scale-105 bg-gray-100 overflow-hidden">
+                <div class="rounded overflow-hidden aspect-video">
+                    <img src="public/img/hero.jpg" alt="" class="w-full h-full object-cover">
+                </div>
+                <div class="text-center p-2">
+                    <h3 class="text-xl font-semibold">Lab. perbaikan dan Perawatan</h3>
+                </div>
+            </li>
+            <li class="border rounded-xl transition transform hover:scale-105 bg-gray-100 overflow-hidden">
+                <div class="rounded overflow-hidden aspect-video">
+                    <img src="public/img/hero.jpg" alt="" class="w-full h-full object-cover">
+                </div>
+                <div class="text-center p-2">
+                    <h3 class="text-xl font-semibold">Lab. LAN</h3>
+                </div>
+            </li>
+            <li class="border rounded-xl transition transform hover:scale-105 bg-gray-100 overflow-hidden">
+                <div class="rounded overflow-hidden aspect-video">
+                    <img src="public/img/hero.jpg" alt="" class="w-full h-full object-cover">
+                </div>
+                <div class="text-center p-2">
+                    <h3 class="text-xl font-semibold">Lab. WAN</h3>
+                </div>
+            </li>
+            <li class="border rounded-xl transition transform hover:scale-105 bg-gray-100 overflow-hidden">
+                <div class="rounded overflow-hidden aspect-video">
+                    <img src="public/img/hero.jpg" alt="" class="w-full h-full object-cover">
+                </div>
+                <div class="text-center p-2">
+                    <h3 class="text-xl font-semibold">Ruang Data Center (VPS)</h3>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+<!-- mitra section -->
+<section id="mitra" class="pt-20 pb-20 bg-gray-100">
+    <div class="container mx-auto">
+        <div class="text-center mb-12">
+            <div class="section-title">
+                <h3 class="text-3xl font-bold"><span class="text-orange-500">Mitra</span> Industri</h3>
+                <p>Kami bekerja sama dengan berbagai industri terkemuka untuk memastikan lulusan kami siap menghadapi tantangan dunia kerja.</p>
+            </div>
+        </div>
+        <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+            <li class="flex justify-center items-center">
+                <img src="public/img/logo/aino.png" alt="logo aino" class="w-20 h-auto object-contain">
+            </li>
+            <li class="flex justify-center items-center">
+                <img src="public/img/logo/citranet.png" alt="logo citranet" class="w-20 h-auto object-contain">
+            </li>
+            <li class="flex justify-center items-center">
+                <img src="public/img/logo/citraweb.png" alt="logo citraweb" class="w-20 h-auto object-contain">
+            </li>
+            <li class="flex justify-center items-center">
+                <img src="public/img/logo/gamatechno.png" alt="logo gamatechno" class="w-20 h-auto object-contain">
+            </li>
+            <li class="flex justify-center items-center">
+                <img src="public/img/logo/indicator.png" alt="logo indonesia indicator" class="w-20 h-auto object-contain">
+            </li>
+            <li class="flex justify-center items-center">
+                <img src="public/img/logo/lifemedia.png" alt="logo life media" class="w-20 h-auto object-contain">
+            </li>
+            <li class="flex justify-center items-center">
+                <img src="public/img/logo/multiintegra.png" alt="logo multi integra" class="w-20 h-auto object-contain">
+            </li>
+            <li class="flex justify-center items-center">
+                <img src="public/img/logo/solusi247.png" alt="logo solusi247" class="w-20 h-auto object-contain">
+            </li>
+            <li class="flex justify-center items-center">
+                <img src="public/img/logo/telkom.png" alt="logo telkom indonesia" class="w-20 h-auto object-contain">
+            </li>
+            <li class="flex justify-center items-center">
+                <img src="public/img/logo/uii.png" alt="logo universitas islam indonesia" class="w-20 h-auto object-contain">
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- end logo carousel -->
+
+<!-- footer -->
+<!-- <div class="footer-area py-12 bg-gray-800 text-white">
+    <div class="container mx-auto"> 
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="footer-box about-widget">
+                <h2 class="widget-title text-xl font-bold mb-4">About us</h2>
+                <p>Ut enim ad minim veniam perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+            </div>
+            <div class="footer-box get-in-touch">
+                <h2 class="widget-title text-xl font-bold mb-4">Get in Touch</h2>
+                <ul>
+                    <li>34/8, East Hukupara, Gifirtok, Sadan.</li>
+                    <li>support@fruitkha.com</li>
+                    <li>+00 111 222 3333</li>
+                </ul>
+            </div>
+            <div class="footer-box subscribe">
+                <h2 class="widget-title text-xl font-bold mb-4">Subscribe</h2>
+                <p>Subscribe to our mailing list to get the latest updates.</p>
+                <form action="index.html" class="mt-4">
+                    <div class="flex items-center">
+                        <input type="email" placeholder="Email" class="p-2 w-full rounded-l-md">
+                        <button type="submit" class="p-2 bg-orange-500 text-white rounded-r-md"><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!-- end footer -->
+
+<!-- copyright -->
+<div class="copyright py-4 bg-gray-900 text-gray-400">
+    <div class="container mx-auto flex flex-wrap justify-center items-center">
+        <div class="text-sm">
+            <p>Copyrights &copy; SIJA 2024, All Rights Reserved.</p>
+        </div>
+    </div>
+</div>
+
+
+    <script src="public\script\script.js"></script>
+</body>
+</html>
